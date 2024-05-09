@@ -1,0 +1,148 @@
+*{
+  /* background-color: white; */
+}
+.care-page{
+  color: black;
+  background-color: white;
+  h2, p{
+    margin-left: 10%;
+  }
+  .top{
+    background-color: rgb(67, 66, 66);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button:hover{
+      border: 2px solid red;
+      color: rgb(235, 230, 230);
+    }
+  }
+}
+
+
+.lab-tests-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.lab-test {
+  box-sizing: border-box; 
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 100%;
+  img{
+    width: 100%;
+  }
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: black;
+ 
+ 
+}
+span{
+  font-size: 0.9em;
+  color: cadetblue;
+  margin-inline-start: 50px;
+}
+span1{
+  font-size: 0.9em;
+  color: red;
+  margin-inline-start: 12px;
+}
+.lab-test:hover{
+  transform: scale(1.05);
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+
+.horizontal-line {
+  border: none; 
+  border-top: 1px solid #ccc; 
+  margin: 40px 0; 
+  width: 70%;
+  margin-left: 15%;
+}
+
+.additional-content{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+}
+.additional-div{
+  box-sizing: border-box; 
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  border-radius: 10px;
+  width: 100%;
+  img{
+    width: 100%;
+  }
+}
+
+
+.faq-container {
+  margin-top: 20px;
+  background-color: rgb(21, 21, 21);
+  h2{
+    background-color: rgb(21, 21, 21);
+    color: white;
+    padding: 20px 0;
+  }
+  p{
+    color: #ccc;
+    font-size: large;
+    font-weight: 500;
+  }
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(21, 21, 21);
+  width: 80%;
+  margin: auto;
+}
+
+details {
+  background-color: rgb(21, 21, 21);
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  background-color: rgb(21, 21, 21);
+  color: #ccc;
+}
+
+details > p {
+  background-color: rgb(21, 21, 21);
+  color: #ccc;
+}
+
+.faq-line {
+  border: none;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  background-color: rgb(21, 21, 21);
+}
+
+@media (max-width: 768px) {
+  .lab-test {
+    width: 40%; /* Each div takes up 40% of the container width on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .lab-test {
+    width: 100%; /* Each div takes up 100% of the container width on even smaller screens */
+  }
+}
