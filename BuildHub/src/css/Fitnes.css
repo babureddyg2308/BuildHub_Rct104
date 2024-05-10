@@ -1,7 +1,8 @@
 *{
 
     font-family: Arial, Helvetica, sans-serif;
-}
+     /* background-color:#15171C; */
+ }
 
 .Birthday {
     background-image: url('https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_1600,q_auto:eco,dpr_1,f_auto,fl_progressive/image/vm/1aec036f-a67a-4830-b176-98b0e4301e8f.png');
@@ -82,3 +83,28 @@
     } 
 
 } */
+
+.Home-Workouts{
+    margin-top:100px;
+}
+.TrainerInfo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* margin-top: 100px; */
+     
+    >div{
+        background-color: #2D3745;
+        border-radius: 10px;
+         
+    }
+     
+}
+.subscription{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    color: white;
+    font-size: 20px;
+}
