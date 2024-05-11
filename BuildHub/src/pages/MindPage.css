@@ -1,0 +1,36 @@
+/* MindPage.css */
+.mind-page {
+    padding: 20px;
+  }
+  
+  .mind-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .mind-item {
+    width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .text {
+    padding: 10px;
+  }
+  
+  .text h2 {
+    margin-top: 0;
+  }
+  
+  .text p {
+    margin: 5px 0;
+  }
+  
