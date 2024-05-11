@@ -1,5 +1,6 @@
 import React from 'react'
  import '../css/NavBar2.css'
+ import Tranform from './BuildTransform'
 
 const NavBar2 = () => {
 
@@ -13,7 +14,7 @@ const NavBar2 = () => {
  
           <p><a href="#">cultpass ELITE</a></p>
           <p><a href="#">cultpass PRO</a></p>
-          <p><a href="#">cult Transform</a></p>
+          <p><a href={Tranform}>BuildHub Transform</a></p>
           <p><a href="#">Bootcamp</a></p>
           <p><a href="#">Transform Plus</a></p>
           <p><a href="#">Luxury Gyms</a></p>

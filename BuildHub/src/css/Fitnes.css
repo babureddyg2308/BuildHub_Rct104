@@ -104,7 +104,73 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 200px;
     color: white;
     font-size: 20px;
+      >div:nth-child(1){
+        justify-content: center;
+        align-items: center;
+      }
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    >button{
+        height: 50px;
+        width: 200px;
+         border:none;
+         border-radius: 10px;
+    }
+    >button:nth-child(1){
+        background-color: #3B4045;
+        color: white;
+        font-size:15px;
+        font-weight: 900;
+    }
+    >button:nth-child(2){
+        
+        color:#f71303;
+        font-size:15px;
+        font-weight: 900;
+    }
+}
+
+.subscription-home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    color: white;
+     
+      >div:nth-child(1){
+        justify-content: center;
+        align-items: center;
+      }
+}
+
+.LossWeight{
+    >img{
+        width: 100%;
+        margin-top: 100px;
+
+    }
+
+}
+
+.community{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    color: white;
+     >div:nth-child(1){
+        margin-top:100px ;
+        
+ 
+     }
+
 }

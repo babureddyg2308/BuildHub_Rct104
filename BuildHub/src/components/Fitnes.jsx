@@ -84,7 +84,7 @@ const Fitnes = () => {
     </div>
 
     <div className='video_card' >
-    <h1 style={{color:'white', textAlign:'center' }}>Centers Near  BY</h1>
+    <h1 style={{color:'white', textAlign:'center', marginTop:'100px' }}>Centers Near  BY centers</h1>
     <Slider {...settings}>
 
         
@@ -395,9 +395,12 @@ const Fitnes = () => {
 
 </div>
 
+<br /><br />
+  <h1 style={{color:'white' , fontSize:'50px', textAlign:'center'}}>FREE TRIALS</h1>
 <div className='subscription'>
+  
    <div>
-    <h2>BuildHub pass</h2>
+    <h2>BuildHub pass <span style={{fontSize:'40px', color:'#FFD371'}}>ELITE</span></h2>
     <h1>Unlimiteed Access to</h1>
     <h1>everything in your city</h1>
     <h3>Unlimiteed Access to</h3>
@@ -405,21 +408,94 @@ const Fitnes = () => {
     <h4><li>All ELITE & PRO gyms</li></h4>
     <h4><li> At-home live workouts</li></h4>
     <h4> Starting at Rs 958 / month + taxes</h4>
-    <div >
+    <div className='buttons'>
 <button >FRY FOR FREE </button>
 <button> BUY NOW</button>
 </div>
   </div>
-  <div> 
-    <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_842,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/sku-card-widget/black2.png" alt="" />
+  <div  > 
+    <img style={{borderRadius:'20px', width:'700px'}} src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_842,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/sku-card-widget/black2.png" alt="" />
   </div>
 
 </div>
- 
+ {/* /////////////////////////// */}
+ <div className='subscription'>
+  
+   
+ <div  > 
+   <img style={{borderRadius:'20px', width:'700px'}} src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_842,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/sku-card-widget/gold2.png" alt="" />
+ </div>
 
+ <div>
+   <h2>BuildHub pass <span style={{fontSize:'40px', color:'#FFD371'}}>PRO</span></h2>
+   <h1>Unlimiteed Access to</h1>
+   <h1>everything in your city</h1>
+   <h3>Unlimiteed Access to</h3>
+   <h4><li>At-center group classes</li></h4>
+   <h4><li>All ELITE & PRO gyms</li></h4>
+   <h4><li> At-home live workouts</li></h4>
+   <h4> Starting at Rs  / month + taxes</h4>
+   <div className='buttons'>
+<button >FRY FOR FREE </button>
+<button> BUY NOW</button>
+</div>
+ </div>
+</div>
+
+{/* ////////////////////////////////// */}
+<div className='subscription-home'>
+  
+   <div>
+    <h2>BuildHub pass <span style={{fontSize:'40px', color:'#FFD371'}}>HOME</span></h2>
+    <h1>Unlimiteed Access to</h1>
+    <h1>everything in your city</h1>
+    <h3>Unlimiteed Access to</h3>
+    <h4><li>At-center group classes</li></h4>
+    <h4><li>All ELITE & PRO gyms</li></h4>
+    <h4><li> At-home live workouts</li></h4>
+    <h4> Starting at Rs 958 / month + taxes</h4>
+    <div className='buttons'>
+<button >FRY FOR FREE </button>
+<button> BUY NOW</button>
+</div>
+  </div>
+  <div>
+      <video autoPlay loop muted style={{ borderRadius: '20px', width: '700px', marginTop:'40px' }}>
+        <source  style={{borderRadius:'20px'}} src="https://cdn-images.cure.fit/www-curefit-com/video/upload/c_fill,w_1600,ar_1.77,q_auto:eco,dpr_1,vc_auto,f_auto/video/test/we-are-cult-web.mp4" type="video/mp4" />
+      
+      </video>
+    </div>
+</div>
+
+
+<div className='LossWeight'>
+
+  <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440/dpr_2/image/vm/a5077452-0ba1-469f-a9ab-3eb6429de7c2.png" alt="" />
+</div>
+
+<div className='community'>
+  
+   <div>
+    <h2>BUILDHUB COMMUNITY</h2>
+    <h1>Be a part of the BuildHub community</h1>
+    
+    <h3> Join the Facebook community today</h3> 
+    <div className='buttons'>
+<button><a href="" style={{color:'white' , textDecoration:'none'}}>JOIN NOW</a>   </button>
+ </div>
+  </div>
+  <div  > 
+    <img style={{borderRadius:'20px', width:'700px'}} src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_700,q_auto:eco,dpr_2,f_auto,fl_progressive/image/vm/246641e8-00d7-42f7-ac92-3207665e35f7.svg" alt="" />
+  </div>
+
+</div>
 
 
 </div>
+
+{/* <div>
+  <video src="https://cdn-images.cure.fit/www-curefit-com/video/upload/c_fill,w_1600,ar_1.77,q_auto:eco,dpr_1,vc_auto,f_auto/video/test/we-are-cult-web.mp4"></video>
+</div> */}
     </>
   )
 }
