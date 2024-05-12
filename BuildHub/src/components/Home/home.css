@@ -1,0 +1,122 @@
+.homeContainer {
+  position: relative;
+}
+
+.home {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  overflow: y;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  mix-blend-mode: hard-light;
+}
+
+video {
+  position: absolute;
+  height: 125vh;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.homeContent {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 400px;
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
+
+.text {
+  padding: 2rem 0;
+  color: antiquewhite;
+  h1 {
+    font-size: 60px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 30px;
+  }
+  .btn1 {
+    padding: 20px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    color: orangered;
+  }
+}
+.arrow {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.card {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-right: 10px;
+  background-color: rgb(50, 42, 42);
+}
+.elite {
+  color: rgb(240, 157, 78);
+  font-size: 40px;
+}
+.pro {
+  font-size: 40px;
+  color: wheat;
+}
+.select {
+  font-size: 40px;
+  color: azure;
+}
+
+.card:hover {
+  background-color: rgb(119, 119, 119);
+}
+
+/* media query */
+@media screen and (max-width: 950px) {
+  .home .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
+
+  .home .card {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: rgb(50, 42, 42);
+    flex-basis: 45%;
+  }
+}
