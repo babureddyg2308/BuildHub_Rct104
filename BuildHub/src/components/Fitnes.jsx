@@ -5,6 +5,29 @@ import '../css/Fitnes.css'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import BuildTransform from './BuildTransform';
+import video1 from '../Fitnes-images/fitness-video/gym-video1.mp4'
+import video2 from '../Fitnes-images/fitness-video/gym-video2.mp4'
+import video3 from '../Fitnes-images/fitness-video/gym-video3.mp4'
+import video4 from '../Fitnes-images/fitness-video/gym-video4.mp4'
+import video5 from '../Fitnes-images/fitness-video/we-are-cult-web-video.mp4'
+import img1 from '../Fitnes-images/fit-imgs/imgf1.jpg'
+import img2 from '../Fitnes-images/fit-imgs/imgf2.jpg'
+import img3 from '../Fitnes-images/fit-imgs/imgf3.jpg'
+import img4 from '../Fitnes-images/fit-imgs/imgf4.jpg'
+import img5 from '../Fitnes-images/fit-imgs/imgf5.jpg'
+import img6 from '../Fitnes-images/fit-imgs/imgf6.jpg'
+import img7 from '../Fitnes-images/fit-imgs/imgf7.jpg'
+import img8 from '../Fitnes-images/fit-imgs/imgf8.jpg'
+import img9 from '../Fitnes-images/fit-imgs/imgf9.jpg'
+import img10 from '../Fitnes-images/fit-imgs/imgf10.jpg'
+import img11 from '../Fitnes-images/fit-imgs/imgf11.jpg'
+import img12 from '../Fitnes-images/fit-imgs/imgf12.jpg'
+import img13 from '../Fitnes-images/fit-imgs/imgf13.jpg'
+import img14 from '../Fitnes-images/fit-imgs/imgf14.jpg'
+
+
+
 
 
 const Fitnes = () => {
@@ -94,7 +117,7 @@ const Fitnes = () => {
     <div className='video' style={{ width: '700px', border: '1px solid', borderRadius:'10px' }}>
       <div>
         <video controls width="250" style={{ width: '100%',borderRadius:'10px' }} >
-        <source src="https://cdn-videos.cure.fit/www-curefit-com/video/upload/cult-media/v2web/centers/center_70_VIDEO_2cb13c89-62fe-4f90-8044-370ff57fc928.mp4" type="video/mp4" /> 
+        <source src={video1} type="video/mp4" /> 
         </video>
       </div>
       <div style={{ display: 'flex',  alignItems: 'center', justifyContent: 'space-between', padding: '10px', color:'white'}}>
@@ -116,7 +139,7 @@ const Fitnes = () => {
   <div className='video' style={{ width: '700px', border: '1px solid', borderRadius:'10px' }}>
       <div>
             <video controls width="250" style={{ width: '100%' }} >
-        <source src="https://cdn-media.cure.fit/image/gymfit/centers/prod/CENTER45/video/gymfit/4218c45e-f0e5-453a-8eef-d58e7b715fabZest.mp4" type="video/mp4" /> 
+        <source src={video2} type="video/mp4" /> 
         </video>  
             </div>
             <div style={{ display: 'flex',  alignItems: 'center', justifyContent: 'space-between', padding: '10px', color:'white' }}>
@@ -146,7 +169,7 @@ const Fitnes = () => {
   <div className='video' style={{ width: '700px', border: '1px solid', borderRadius:'10px' }}>
       <div>
         <video controls width="250" style={{ width: '100%' }} >
-        <source src="https://cdn-videos.cure.fit/www-curefit-com/video/upload/cult-media/v2web/centers/center_70_VIDEO_2cb13c89-62fe-4f90-8044-370ff57fc928.mp4" type="video/mp4" /> 
+        <source src={video1} type="video/mp4" /> 
         </video>
       </div>
       <div style={{ display: 'flex',  alignItems: 'center', justifyContent: 'space-between', padding: '10px', color:'white'}}>
@@ -167,7 +190,7 @@ const Fitnes = () => {
   <div className='video' style={{ width: '700px', border: '1px solid', borderRadius:'10px' }}>
       <div>
             <video controls width="250" style={{ width: '100%' }} >
-        <source src="https://cdn-videos.cure.fit/www-curefit-com/video/upload/cult-media/v2web/centers/center_3_VIDEO_faa28da3-5f1f-40d2-b0d0-e1851f76fe31.mp4" type="video/mp4" /> 
+        <source src={video3} type="video/mp4" /> 
         </video>  
             </div>
             <div style={{ display: 'flex',  alignItems: 'center', justifyContent: 'space-between', padding: '10px', color:'white'}}>
@@ -191,7 +214,7 @@ const Fitnes = () => {
   <div className='video' style={{ width: '700px', border: '1px solid', borderRadius:'10px' }}>
       <div>
         <video controls width="250" style={{ width: '100%' }} >
-        <source src="https://cdn-videos.cure.fit/www-curefit-com/video/upload/cult-media/v2web/centers/center_70_VIDEO_2cb13c89-62fe-4f90-8044-370ff57fc928.mp4" type="video/mp4" /> 
+        <source src={video1} type="video/mp4" /> 
         </video>
       </div>
       <div style={{ display: 'flex',  alignItems: 'center', justifyContent: 'space-between', padding: '10px', color:'white'}}>
@@ -212,7 +235,7 @@ const Fitnes = () => {
   <div className='video' style={{ width: '700px', border: '1px solid', borderRadius:'10px' }}>
       <div>
             <video controls width="250" style={{ width: '100%' }} >
-        <source src="https://cdn-media.cure.fit/image/gymfit/centers/prod/CENTER134/video/gymfit/2230f06b-9d68-4fae-a820-72043b75396ePlay_on_Fitness_-_HSR.mp4" type="video/mp4" /> 
+        <source src={video4} type="video/mp4" /> 
         </video>  
             </div>
             <div style={{ display: 'flex',  alignItems: 'center', justifyContent: 'space-between', padding: '10px', color:'white'}}>
@@ -250,12 +273,12 @@ const Fitnes = () => {
         
 <div> 
   <div style={{display:'flex', justifyContent:"space-around",flexWrap:'wrap'}}>
-    <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive/image/vm/09e63111-d407-4d09-89e5-96d978edf2b1.png" alt="" />
-    <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive/image/vm/5ff5b229-b562-428f-94a9-98da451ed367.png" alt="" />
+    <img src={img1} alt="" />
+    <img src={img2} alt="" />
 
-    <img src=" https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive/image/vm/8009b1d0-4f5e-49e1-bc94-c41da6a5bcc1.png" alt="" />
+    <img src={img3} alt="" />
 
-    <img src=" https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive/image/vm/70616b89-0271-49e4-b22d-5752599023a4.jpeg" alt="" />
+    <img src={img4} alt="" />
 
 
   </div>
@@ -263,25 +286,25 @@ const Fitnes = () => {
 
 <div> 
 <div style={{display:'flex', justifyContent:"space-around", flexWrap:'wrap',gap:"10px"}}>
-    <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive/image/vm/7bf136db-7217-4733-af9f-1bb8a4155a83.png" alt="" />
-    <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive/image/vm/09e63111-d407-4d09-89e5-96d978edf2b1.png" alt="" />
+    <img src={img5} alt="" />
+    <img src={img6} alt="" />
 
-    <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive/image/vm/70616b89-0271-49e4-b22d-5752599023a4.jpeg" alt="" />
+    <img src={img4} alt="" />
 
-    <img src=" https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive/image/vm/7bf136db-7217-4733-af9f-1bb8a4155a83.png" alt="" />
+    <img src={img3} alt="" />
 
 
   </div>
 </div>
 <div> 
 <div style={{display:'flex', justifyContent:"space-around", flexWrap:'wrap', gap:"10px"}}>
-<img src=" https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive/image/vm/70616b89-0271-49e4-b22d-5752599023a4.jpeg" alt="" />
+<img src={img6} alt="" />
 
-     <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive/image/vm/09e63111-d407-4d09-89e5-96d978edf2b1.png" alt="" />
+     <img src= {img3} alt="" />
 
-    <img src=" https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive/image/vm/8009b1d0-4f5e-49e1-bc94-c41da6a5bcc1.png" alt="" />
+    <img src={img2} alt="" />
 
-    <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_300,q_auto:eco,dpr_1,f_auto,fl_progressive/image/vm/09e63111-d407-4d09-89e5-96d978edf2b1.png" alt="" />
+    <img src={img4} alt="" />
 
 
   </div>
@@ -305,7 +328,7 @@ const Fitnes = () => {
           <div className='TrainerInfo'> 
           <div >
             <div> 
-          <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,q_auto:eco,dpr_1,f_auto,fl_progressive//image/diy/62a444f9-96ae-45a4-8e0d-099d295b6209" alt="Slide 1" />
+          <img src={img7} alt="Slide 1" />
           </div>
           <div style={{textAlign:'center', padding:'20px'}}> 
             <h4>Niran Ponnapa</h4>
@@ -318,7 +341,7 @@ const Fitnes = () => {
 
             <div >
             <div> 
-          <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,q_auto:eco,dpr_1,f_auto,fl_progressive//image/diy/b2b62810-c605-44b3-861c-b6d0b48efc22" alt="Slide 1"  style={{height:'240px', width:'100%'}}/>
+          <img src={img8} alt="Slide 1"  style={{height:'240px', width:'100%'}}/>
           </div>
           <div style={{textAlign:'center', padding:'20px'}}> 
             <h4>Niran Ponnapa</h4>
@@ -331,7 +354,7 @@ const Fitnes = () => {
 
             <div> 
               <div> 
-             <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,q_auto:eco,dpr_1,f_auto,fl_progressive//image/diy/3364a177-b6a1-48bd-a3c8-c3771467ae65" alt="" />
+             <img src={img9} alt="" />
              </div>
              <div style={{textAlign:'center', padding:'20px'}}>
               <h4>Isheeta Ray</h4>
@@ -348,7 +371,7 @@ const Fitnes = () => {
           <div className='TrainerInfo' style={{flexWrap:''}}> 
           <div >
             <div> 
-          <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,q_auto:eco,dpr_1,f_auto,fl_progressive//image/diy/62a444f9-96ae-45a4-8e0d-099d295b6209" alt="Slide 1" />
+          <img src={img7} alt="Slide 1" />
           </div>
           <div style={{textAlign:'center', padding:'20px' }}> 
             <h4>Niran Ponnapa</h4>
@@ -361,7 +384,7 @@ const Fitnes = () => {
                 
             <div >
             <div> 
-          <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,q_auto:eco,dpr_1,f_auto,fl_progressive//image/diy/3364a177-b6a1-48bd-a3c8-c3771467ae65" alt="Slide 1" />
+          <img src={img9} alt="Slide 1" />
           </div>
           <div style={{textAlign:'center', padding:'20px'}}> 
             <h4>Niran Ponnapa</h4>
@@ -375,7 +398,7 @@ const Fitnes = () => {
 
             <div> 
               <div> 
-             <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_400,q_auto:eco,dpr_1,f_auto,fl_progressive//image/diy/16de7c89-93ec-4867-8aa8-061559d858c9" alt="" />
+             <img src={img10} alt="" />
              </div>
              <div style={{textAlign:'center', padding:'20px'}}>
               <h4>Isheeta Ray</h4>
@@ -414,7 +437,7 @@ const Fitnes = () => {
 </div>
   </div>
   <div  > 
-    <img style={{borderRadius:'20px', width:'700px'}} src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_842,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/sku-card-widget/black2.png" alt="" />
+    <img style={{borderRadius:'20px', width:'700px'}} src={img11} alt="" />
   </div>
 
 </div>
@@ -423,7 +446,7 @@ const Fitnes = () => {
   
    
  <div  > 
-   <img style={{borderRadius:'20px', width:'700px'}} src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_842,q_auto:eco,dpr_1,f_auto,fl_progressive/image/test/sku-card-widget/gold2.png" alt="" />
+   <img style={{borderRadius:'20px', width:'700px'}} src={img12} alt="" />
  </div>
 
  <div>
@@ -461,7 +484,7 @@ const Fitnes = () => {
   </div>
   <div>
       <video autoPlay loop muted style={{ borderRadius: '20px', width: '700px', marginTop:'40px' }}>
-        <source  style={{borderRadius:'20px'}} src="https://cdn-images.cure.fit/www-curefit-com/video/upload/c_fill,w_1600,ar_1.77,q_auto:eco,dpr_1,vc_auto,f_auto/video/test/we-are-cult-web.mp4" type="video/mp4" />
+        <source  style={{borderRadius:'20px'}} src={video5} type="video/mp4" />
       
       </video>
     </div>
@@ -470,7 +493,7 @@ const Fitnes = () => {
 
 <div className='LossWeight'>
 
-  <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_1440/dpr_2/image/vm/a5077452-0ba1-469f-a9ab-3eb6429de7c2.png" alt="" />
+  <img src={img13} alt="" />
 </div>
 
 <div className='community'>
@@ -485,7 +508,7 @@ const Fitnes = () => {
  </div>
   </div>
   <div  > 
-    <img style={{borderRadius:'20px', width:'700px'}} src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_700,q_auto:eco,dpr_2,f_auto,fl_progressive/image/vm/246641e8-00d7-42f7-ac92-3207665e35f7.svg" alt="" />
+    <img style={{borderRadius:'20px', width:'700px'}} src={img14} alt="" />
   </div>
 
 </div>

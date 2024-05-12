@@ -3,15 +3,17 @@ import { useState } from 'react'
 import Fitnes from './components/Fitnes'
 import Video from './components/Video'
 import BuildTransform from './components/BuildTransform'
+import NavBar2 from './components/NavBar2'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-       <Fitnes/>
-       {/* <Video/> */}
-       {/* <BuildTransform/> */}
+       {/* <Fitnes/> */}
+       {/* <NavBar2/> */}
+     
+       <BuildTransform/>
     </>
   )
 }

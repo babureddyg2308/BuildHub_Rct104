@@ -14,7 +14,7 @@ const NavBar2 = () => {
  
           <p><a href="#">cultpass ELITE</a></p>
           <p><a href="#">cultpass PRO</a></p>
-          <p><a href={Tranform}>BuildHub Transform</a></p>
+          <p><a href="../components/BuildTransform.jsx">BuildHub Transform</a></p>
           <p><a href="#">Bootcamp</a></p>
           <p><a href="#">Transform Plus</a></p>
           <p><a href="#">Luxury Gyms</a></p>

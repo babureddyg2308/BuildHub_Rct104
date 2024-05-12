@@ -71,6 +71,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
     >div:nth-child(1){
         width: 400px;
@@ -92,6 +93,7 @@
     align-items: center;
     gap: 20px;
     border-radius: 20px;
+    flex-wrap: wrap;
     
     color: white;
     >div:nth-child(1){
@@ -132,6 +134,7 @@
 
 .Button-Buy{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 90px;
@@ -139,6 +142,7 @@
 }
 .Coaches{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 20px;
