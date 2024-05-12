@@ -118,9 +118,9 @@ const Main = () => {
         <div className="header"></div>
         <div className="main-content">
           <h1>Download the most loved fitness app</h1>
-          <p>Start your fitness journey with us. Join the cult!</p>
+          <p>Start your fitness journey with us. Join BuildHub!</p>
         </div>
-        <div className="footer">
+        <div className="Footer">
           <div
             className="small-card"
             style={{ backgroundImage: `url(${smallCardImage1})` }}
@@ -131,9 +131,9 @@ const Main = () => {
           ></div>
         </div>
       </div>
-      {/* <div className="text">
-        <span className>Join the BuildHub family</span>
-      </div> */}
+      <div className="text">
+        <span className>Join the BuildHub family!</span>
+      </div>
     </div>
   );
 };
