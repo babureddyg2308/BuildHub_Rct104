@@ -1,0 +1,149 @@
+.BuildHub-Transform{
+    background-color: #1F4B57;
+    margin-top: -10px;
+    
+
+
+}
+
+.Quiz{
+    color: white;
+    text-align: center;
+    padding: 50px;
+    background-color: #355D67;
+     
+    
+
+    >h1>button>a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 800;
+        padding: 20px;
+         
+
+    }
+    >h1>button{
+        height: 50px;
+        border-radius: 20px;
+        border: none;
+        margin-left: 50px;
+         
+    }
+}
+
+
+.Get-access{
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    >div:nth-child(1){
+        width: 400px;
+        height: 800px;
+    }
+    >div:nth-child(2){
+        width: 400px;
+        height: 800px;
+    }
+}
+.Explore{
+    text-align: center;
+    color: white;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    >button>a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 20px;
+    }
+    >button{
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+
+
+    }
+}
+
+.Real-members{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    >div:nth-child(1){
+        width: 400px;
+
+    }
+    >div:nth-child(2){
+        width: 400px;
+
+    }
+    >div:nth-child(3){
+        width: 400px;
+
+    }
+}
+
+.Membership-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    
+    color: white;
+    >div:nth-child(1){
+        width: 400px;
+        border-radius: 20px;
+        /* height: 400px; */
+        background-color: #305C69;
+    }
+    >div:nth-child(2){
+        width: 400px;
+        border-radius: 20px;
+        /* height: 400px; */
+        background-color: #305C69;
+    }
+    >div:nth-child(3){
+        width: 400px;
+        border-radius: 20px;
+        /* height: 400px; */
+        background-color: #305C69;
+        /* text-decoration: line-through; */
+    }
+}
+
+.Buynow{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+     >a{
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 800;
+
+     }
+}
+
+.Button-Buy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    padding: 20px;
+}
+.Coaches{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}

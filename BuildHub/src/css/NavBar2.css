@@ -1,0 +1,26 @@
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    height:  150px;
+    width: 100%;
+     padding-top:100px ;
+    background-color: #393A3B;
+     >p>a{
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+           
+     }
+}
+.totalnav2{
+    /* margin-top: 100px; */
+    background-color: #393A3B;
+}
+
+@media (min-width:1200px){
+    .navigation{
+        margin: auto;
+        max-width: 1200px;
+    } 
+
+}

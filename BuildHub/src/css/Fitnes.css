@@ -1,0 +1,190 @@
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+     /* background-color:#15171C; */
+ }
+
+.Birthday {
+    background-image: url('../Fitnes-images/fit-imgs/mothers-day.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    /* margin-top: 60px; */
+    padding-bottom: 20px;
+    
+}
+.Birthday>.navCards>a{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+#button{
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130vh;
+      >button{
+        height: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+        color: #fd0404;
+        font-family: Arial, Helvetica, sans-serif;
+         
+      }
+       :hover{
+
+        color: black;
+      }
+}
+.navCards{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    flex-wrap: wrap;
+    margin-top: -400px;
+    
+  
+
+>div{
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+     
+}
+
+#video-card{
+    display: flex;
+    width: 300px;
+}
+/* #videossss{
+    display: flex;
+} */
+
+
+/* .Startingpage{
+
+}
+@media (min-width:1200px){
+    .Startingpage{
+        margin: auto;
+        max-width: 1200px;
+    } 
+
+} */
+
+.Home-Workouts{
+    margin-top:100px;
+}
+.TrainerInfo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* margin-top: 100px; */
+     
+    >div{
+        background-color: #2D3745;
+        border-radius: 10px;
+         
+    }
+     
+}
+.subscription{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 200px;
+    color: white;
+    font-size: 20px;
+    
+      >div:nth-child(1){
+        justify-content: center;
+        align-items: center;
+      }
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    >button{
+        height: 50px;
+        width: 200px;
+         border:none;
+         border-radius: 10px;
+    }
+    >button:nth-child(1){
+        background-color: #3B4045;
+        color: white;
+        font-size:15px;
+        font-weight: 900;
+    }
+    >button:nth-child(2){
+        
+        color:#f71303;
+        font-size:15px;
+        font-weight: 900;
+    }
+}
+
+.subscription-home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    color: white;
+     
+      >div:nth-child(1){
+        justify-content: center;
+        align-items: center;
+      }
+}
+
+.LossWeight{
+    >img{
+        width: 100%;
+        margin-top: 100px;
+
+    }
+
+}
+
+.community{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    color: white;
+     >div:nth-child(1){
+        margin-top:100px ;
+        
+ 
+     }
+
+}
+
+.trainerCards{
+    /* style={{display:'flex', justifyContent:"space-around",flexWrap:'wrap' */
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+>img{
+    width: 300px;
+}
+}
+
+/* style={{display:'flex', justifyContent:"space-around", flexWrap:'wrap',gap:"10px"}} */
