@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section className="home">
       <div className="overlay"></div>
-      <video src={video} muted autoPlay loop type="video/mp4"></video>
+      <video className="video-landpage" src={video} muted autoPlay loop type="video/mp4"></video>
 
       <div className="homeContent">
         <div className="text">

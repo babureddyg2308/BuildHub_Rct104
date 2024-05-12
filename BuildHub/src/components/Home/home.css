@@ -23,8 +23,9 @@
   mix-blend-mode: hard-light;
 }
 
-video {
+.video-landpage {
   position: absolute;
+  
   height: 125vh;
   width: 100%;
   top: 0;
