@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import './MindPage.css';
+import './MindPage.css'; 
 
 const MindPage = () => {
   const [data, setData] = useState([]);
@@ -8,7 +8,7 @@ const MindPage = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('API_ENDPOINT_HERE');
+        const response = await fetch('./public/data/mindData.json');
         const jsonData = await response.json();
         setData(jsonData);
       } catch (error) {
@@ -23,15 +23,15 @@ const MindPage = () => {
     <div className="mind-page">
       <h1>Mind</h1>
       <div className="mind-container">
-        {data.map((item, index) => (
-          <div key={index} className="mind-item">
+        {data.map(item => (
+          <div key={item.id} className="mind-item">
             <div className="image">
-              <img src={item.imageUrl} alt={item.title} />
+              <img src={item.image.imageUrl} alt={item.text.title} />
             </div>
             <div className="text">
-              <h2>{item.title}</h2>
-              <p>{item.description}</p>
-              <p>{item.additionalInfo}</p>
+              <h2>{item.text.title}</h2>
+              <p>{item.text.description}</p>
+              <p>{item.text.additionalInfo}</p>
             </div>
           </div>
         ))}

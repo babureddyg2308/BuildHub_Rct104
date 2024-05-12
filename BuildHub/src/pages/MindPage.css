@@ -1,28 +1,46 @@
 /* MindPage.css */
+
 .mind-page {
-    padding: 20px;
+    width: 80%;
+    margin: auto;
   }
   
   .mind-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 columns, adjust as needed */
+    gap: 20px; /* Gap between grid items */
+    
   }
-  
+  .mind-item:hover{
+    transform: scale(1.05);
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+  }
   .mind-item {
-    width: 300px;
-    margin-bottom: 20px;
+    display: flex; /* Use flexbox to arrange image and text side by side */
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  }
+  
+  .image {
+    flex: 1;
+    width: 40vw;
+    height: 15vh;
   }
   
   .image img {
     width: 100%;
     height: auto;
+    display: block;
+    object-fit: cover;
   }
+ 
   
   .text {
+    flex: 1; /* Take up 50% of the available space */
     padding: 10px;
   }
   
@@ -31,6 +49,48 @@
   }
   
   .text p {
-    margin: 5px 0;
+    margin: 0;
   }
   
+
+  @media (max-width: 880px) {
+    .mind-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 3 columns, adjust as needed */
+        gap: 10px; /* Gap between grid items */
+        .image {
+            flex: 1;
+            width: 30vw; /* Set a fixed width */
+            height: auto; /* Set a fixed height */
+            overflow: hidden;
+            margin: 2px;
+          }
+          
+          .image img {
+            width: 30vw; /* Make the image fill the container */
+            height: 100%; /* Make the image fill the container */
+            object-fit: cover;
+            padding: 2px;
+          }
+      }
+  }
+
+  @media (max-width: 480px) {
+    .mind-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* 3 columns, adjust as needed */
+        gap: 10px; /* Gap between grid items */
+        .image {
+            width: 100%; /* Set a fixed width */
+            height: auto; /* Set a fixed height */
+            overflow: hidden;
+            margin: 2px;
+          }
+          
+          .image img {
+            width: 100%; /* Make the image fill the container */
+            height: 100%; /* Make the image fill the container */
+            padding: 2px;
+          }
+      }
+  }

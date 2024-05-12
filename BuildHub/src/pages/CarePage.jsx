@@ -1,4 +1,4 @@
-// CarePage.jsx
+
 import React, { useState, useEffect } from 'react';
 import { fetchLabTests } from '../api/api'; 
 import './CarePage.css';

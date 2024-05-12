@@ -1,6 +1,4 @@
-*{
-  /* background-color: white; */
-}
+
 .care-page{
   color: black;
   background-color: white;
@@ -39,7 +37,7 @@
   img{
     width: 100%;
   }
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   color: black;
  
  
@@ -55,6 +53,7 @@ span1{
   margin-inline-start: 12px;
 }
 .lab-test:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transform: scale(1.05);
   transition: all .3s ease-in-out;
   cursor: pointer;
@@ -86,6 +85,11 @@ span1{
   img{
     width: 100%;
   }
+}
+.additional-div:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.05);
+  transition: all .3s ease-in;
 }
 
 
@@ -136,13 +140,32 @@ details > p {
 }
 
 @media (max-width: 768px) {
-  .lab-test {
-    width: 40%; /* Each div takes up 40% of the container width on smaller screens */
-  }
+    
+.lab-tests-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 90%;
+  margin: auto;
+}
+  
 }
 
 @media (max-width: 480px) {
-  .lab-test {
-    width: 100%; /* Each div takes up 100% of the container width on even smaller screens */
+  .lab-tests-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+
+@media (max-width: 150px) {
+  .lab-tests-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
   }
 }
