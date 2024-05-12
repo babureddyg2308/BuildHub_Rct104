@@ -1,11 +1,29 @@
 /* MindPage.css */
 
 .mind-page {
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    h2, p{
+      margin-left: 10%;
+    }
+    
+  }
+  
+  .top{
+    background-color: rgb(67, 66, 66);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button:hover{
+      border: 2px solid red;
+      color: rgb(235, 230, 230);
+    }
   }
   
   .mind-container {
+    width: 80%;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 3 columns, adjust as needed */
     gap: 20px; /* Gap between grid items */
