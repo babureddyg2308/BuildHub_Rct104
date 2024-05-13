@@ -13,23 +13,7 @@ Full Stack
 BuildHub/
 ├── public/
 ├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── Admin/
-│   │   ├── BuildTransform.jsx
-│   │   ├── Demo.jsx
-│   │   ├── Fitness.jsx
-│   │   ├── NavBar2.jsx
-│   │   └── Video.jsx
-│   ├── css/
-│   ├── Fitnes-images/
-│   ├── utils/
-│   ├── App.css
-│   ├── App.jsx
-│   └── main.jsx
-├── .eslintrc.js
-├── .gitignore
-└── index.html
+│   ├── ...
 
 
 **Features**
