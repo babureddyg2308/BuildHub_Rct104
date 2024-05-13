@@ -28,7 +28,7 @@
   
   height: 125vh;
   width: 100%;
-  top: 0;
+  /* top: 0; */
   bottom: 0;
   object-fit: cover;
   z-index: 0;

@@ -19,9 +19,9 @@ const Navbar = () => {
 
   return (
     <section>
-      <header className="header flex">
+      <header className="Header flex" style={{color:'white', width:''}}>
         <div className="image">
-          <img src="../contents/BuildHub_logo.jpeg" alt="" style={{width:'12vw',marginTop:'25px',borderRadius:'10px'}}/>
+          <a href="/"> <img src="../contents/BuildHub_logo.jpeg" alt="" style={{width:'12vw',marginTop:'25px',borderRadius:'10px'}}/></a>
         </div>
         <div className="navlist flex">
           <li className="navItem">
@@ -30,8 +30,8 @@ const Navbar = () => {
             </a>
           </li>
           <li className="navItem">
-            <a href="#" className="navLink">
-              SPORTS
+            <a href="/transform" className="navLink">
+              Transform
             </a>
           </li>
           <li className="navItem">
@@ -45,7 +45,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className="navItem">
-            <a href="#" className="navLink">
+            <a href="/care" className="navLink">
               STORE
             </a>
           </li>
