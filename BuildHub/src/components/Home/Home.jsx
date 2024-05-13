@@ -11,7 +11,7 @@ const Home = () => {
       <div className="homeContent">
         <div className="text">
           <h1>We Are BuildHub</h1>
-          <p>A fitness movement that is worth breaking a sweat for</p>
+          <p style={{color:'white'}}>A fitness movement that is worth breaking a sweat for</p>
           <br />
           <button className="btn1">EXLORE BUILDHUB PASS</button>
           <div className="arrow">&#9660;</div>

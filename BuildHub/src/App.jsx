@@ -23,17 +23,15 @@ const App = () => {
       <Navbar />
       
        <Routes>
-       <Route path="/" element={<BodyAdd/>}> </Route>
-        
+       <Route path="/" element={<BodyAdd/>}> </Route>        
          <Route path="/fitnes" element={<Fitnes/>}></Route>
          <Route path="/transform" element={<BuildTransform/>}></Route>
          <Route path="/care" element={<CarePage />} />
         <Route path="/mind" element={<MindPage />} />
-        <Route path="/signin" element={<AuthForm />} />
-        {/* <Route path="/admin" element={<AdminPage/>}/> */}
-         
+        <Route path="/signin" element={<AuthForm />} />  
+          
 
-       </Routes>
+       </Routes> 
       
       <Footer />
       

@@ -83,8 +83,8 @@ const Main = () => {
           </div>
           <div className="cardDetails">
             <h2>Unlimited access to</h2>
-            <li>One center that you choose</li>
-            <li>Limited sessions* in other centers & gyms in your city</li>
+            <li>One center that you choose</li> 
+            <li>Limited sessions* in other centers & gyms in your city</li> 
             <li>At-home live workouts</li>
           </div>
         </div>
@@ -115,10 +115,10 @@ const Main = () => {
         className="Card-content"
         style={{ backgroundImage: `url(${cardImage8})` }}
       >
-        <div className="header"></div>
+         
         <div className="main-content">
-          <h1>Download the most loved fitness app</h1>
-          <p>Start your fitness journey with us. Join BuildHub!</p>
+          <h1 style={{color:'white ', fontSize:'50px'}}>Download the most loved fitness app</h1>
+          <p style={{color:'white', fontSize:'40px'}}>Start your fitness journey with us. Join BuildHub!</p>
         </div>
         <div className="Footer">
           <div
