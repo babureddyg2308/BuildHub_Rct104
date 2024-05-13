@@ -1,0 +1,333 @@
+[
+    {
+      "id": 1,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/a5748b24-ddea-429e-8dea-51fa60c258c6"
+      },
+      "text": {
+        "title": "Mindfulness Meditation",
+        "description": "Practice mindfulness meditation to improve focus and reduce stress.",
+        "additionalInfo": "Recommended for beginners."
+      }
+    },
+    {
+      "id": 2,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/83a5a31b-68f8-4acd-b6ff-d7bb8430ecd5"
+      },
+      "text": {
+        "title": "Meditation for Kids",
+        "description": "Repeat positive affirmations to boost confidence and self-esteem.",
+        "additionalInfo": "Daily practice is beneficial."
+      }
+    },
+    {
+      "id": 3,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/2e8dffed-4d9c-4eed-9bad-f5b577ab1fef"
+      },
+      "text": {
+        "title": "Deep Breathing Exercises",
+        "description": "Try deep breathing exercises to relax the mind and body.",
+        "additionalInfo": "Take slow, deep breaths."
+      }
+    },
+    {
+      "id": 4,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/3f6bf321-5c8d-4f12-adbf-5dd60b4f3fec"
+      },
+      "text": {
+        "title": "Difficult Emotions",
+        "description": "Use visualization techniques to achieve your goals and dreams.",
+        "additionalInfo": "Imagine your desired outcomes in vivid detail."
+      }
+    },
+    {
+      "id": 5,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/9122b134-13f2-4acd-b35b-ab3f3016b8c4.jpg"
+      },
+      "text": {
+        "title": "Gratitude Journaling",
+        "description": "Keep a gratitude journal to cultivate a positive mindset.",
+        "additionalInfo": "Write down things you're grateful for every day."
+      }
+    },
+    {
+      "id": 6,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/26778218-30a6-499e-84b3-4b21535139d1"
+      },
+      "text": {
+        "title": "Body Scan Meditation",
+        "description": "Practice body scan meditation to relax your body and mind.",
+        "additionalInfo": "Focus on each part of your body and release tension."
+      }
+    },
+    {
+      "id": 7,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/92999294-93a8-434d-af21-034185207cae.jpg"
+      },
+      "text": {
+        "title": "Sleep Meditation",
+        "description": "Use creative visualization to manifest your desires into reality.",
+        "additionalInfo": "Imagine yourself achieving your goals with all your senses."
+      }
+    },
+    {
+      "id": 8,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/5c301b30-9fb3-434e-bdfb-47d15e240b47"
+      },
+      "text": {
+        "title": "Nature Walks",
+        "description": "Go for nature walks to connect with the natural world and clear your mind.",
+        "additionalInfo": "Take deep breaths and notice the beauty around you."
+      }
+    },
+    {
+      "id": 9,
+      "image": {
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhq0wmBwMY0NkELnAgngYYvBddGrU8-McQg&s"
+      },
+      "text": {
+        "title": "Stress Ball Squeezes",
+        "description": "Use stress balls to relieve tension and stress in your hands and body.",
+        "additionalInfo": "Squeeze and release the stress away."
+      }
+    },
+    {
+      "id": 10,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/2cdc62b3-b120-4544-a55e-5b6ce5025c64"
+      },
+      "text": {
+        "title": "A Guide to Meditation (Hindi)",
+        "description": "Use affirmation cards to start your day with positive affirmations.",
+        "additionalInfo": "Pick a card and read the affirmation aloud."
+      }
+    },
+    {
+      "id": 11,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/a5748b24-ddea-429e-8dea-51fa60c258c6"
+      },
+      "text": {
+        "title": "Mindful Eating",
+        "description": "Practice mindful eating to savor your food and improve digestion.",
+        "additionalInfo": "Eat slowly and pay attention to the taste and texture of each bite."
+      }
+    },
+    {
+      "id": 12,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/9122b134-13f2-4acd-b35b-ab3f3016b8c4.jpg"
+      },
+      "text": {
+        "title": "Gratitude Meditation",
+        "description": "Practice gratitude meditation to cultivate appreciation and contentment.",
+        "additionalInfo": "Think of things you're grateful for and express thanks."
+      }
+    },
+    {
+      "id": 13,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/f6c83a0c-40d8-45fb-8fcc-75a79f33acd2.jpg"
+      },
+      "text": {
+        "title": "Intermediate",
+        "description": "Start journaling to express your thoughts, feelings, and ideas.",
+        "additionalInfo": "Write freely without judgment or criticism."
+      }
+    },
+    {
+      "id": 14,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/7fc199ea-0457-4d03-bd93-add35aa3a64c"
+      },
+      "text": {
+        "title": "Happiness by Nithya Shanti",
+        "description": "Listen to guided imagery recordings to relax and visualize positive outcomes.",
+        "additionalInfo": "Close your eyes and follow along with the instructions."
+      }
+    },
+    {
+      "id": 15,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/f5e214b7-243b-4fec-b821-8e6400d49213"
+      },
+      "text": {
+        "title": "Mindfulness Apps",
+        "description": "Download mindfulness apps to access guided meditations and exercises.",
+        "additionalInfo": "Practice mindfulness anywhere, anytime."
+      }
+    },
+    {
+      "id": 16,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/54117647-b2c9-4800-9370-18fb650fe4ba"
+      },
+      "text": {
+        "title": "Breath Counting",
+        "description": "Practice breath counting to calm your mind and increase focus.",
+        "additionalInfo": "Count each inhale and exhale up to a certain number."
+      }
+    },
+    {
+      "id": 17,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/3aadf32b-c5a4-422a-b648-fa715eb409ed.jpg"
+      },
+      "text": {
+        "title": "Yoga",
+        "description": "Practice yoga to improve flexibility, strength, and mental clarity.",
+        "additionalInfo": "Follow along with yoga videos or attend classes."
+      }
+    },
+    {
+      "id": 18,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/5964450b-e7d3-468a-8217-9dec24b0be93.jpg"
+      },
+      "text": {
+        "title": "Progressive Muscle Relaxation",
+        "description": "Practice progressive muscle relaxation to release tension and stress.",
+        "additionalInfo": "Tense and relax each muscle group in your body."
+      }
+    },
+    {
+      "id": 19,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/95593272-76b9-4776-bd98-23934db3fc1b"
+      },
+      "text": {
+        "title": "Saying YES to Life",
+        "description": "Practice visualization meditation to create a positive mental image.",
+        "additionalInfo": "Imagine yourself achieving your goals and desires."
+      }
+    },
+    {
+      "id": 20,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/206bf7fd-de2b-4ab8-9783-6b94acbab483.jpg"
+      },
+      "text": {
+        "title": "Meditation - Yoga Nidra",
+        "description": "Coloring books can be a therapeutic way to relax and de-stress.",
+        "additionalInfo": "Choose intricate designs and focus on the colors."
+      }
+    },
+    {
+      "id": 21,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/5964450b-e7d3-468a-8217-9dec24b0be93.jpg"
+      },
+      "text": {
+        "title": "Music Therapy",
+        "description": "Listen to calming music to reduce stress and promote relaxation.",
+        "additionalInfo": "Create playlists with your favorite soothing tunes."
+      }
+    },
+    {
+      "id": 22,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/5c301b30-9fb3-434e-bdfb-47d15e240b47"
+      },
+      "text": {
+        "title": "Walking Meditation",
+        "description": "Practice walking meditation to be present and mindful while walking.",
+        "additionalInfo": "Focus on the sensation of each step."
+      }
+    },
+    {
+      "id": 23,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/5992b24c-f970-4beb-a4fe-8f0e265b67d9"
+      },
+      "text": {
+        "title": "30 Minutes Pranayama",
+        "description": "Sensory bins can provide a calming and engaging sensory experience.",
+        "additionalInfo": "Fill a bin with items like sand, rice, or water beads."
+      }
+    },
+    {
+      "id": 24,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/3778c07f-310c-4d01-8a4c-89f190351799"
+      },
+      "text": {
+        "title": "Emotional health in a global crisis",
+        "description": "Repeat a mantra to quiet the mind and cultivate inner peace.",
+        "additionalInfo": "Choose a mantra that resonates with you."
+      }
+    },
+    {
+      "id": 25,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/c4a9c1d1-4f01-42a5-8654-9b6155c04586"
+      },
+      "text": {
+        "title": "Practice Meditation - Advanced",
+        "description": "Laughter is a powerful tool for reducing stress and boosting mood.",
+        "additionalInfo": "Watch a comedy show or share jokes with friends."
+      }
+    },
+    {
+      "id": 26,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/3d8bf8ac-64bf-4fc0-80b0-dc64ba6a831e"
+      },
+      "text": {
+        "title": "Relationship Healing",
+        "description": "This meditation pack on Relationships created by Spiritual Coach ModMonk Anshul will take you on a journey of bonding with yourself and will help in building a bridge of love, forgiveness, and acceptance with everyone around you.",
+        "additionalInfo": "Relation heath is important"
+      }
+    },
+    {
+      "id": 27,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/a0f88a6f-5f57-49a5-926e-fc485241edbb"
+      },
+      "text": {
+        "title": "Everyday Short Meditations",
+        "description": "Practice Tai Chi to improve balance, flexibility, and mental well-being.",
+        "additionalInfo": "Follow along with Tai Chi videos or classes."
+      }
+    },
+    {
+      "id": 28,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/fd1f3e15-a293-4b81-83ac-f2578158f9b9"
+      },
+      "text": {
+        "title": "Sleep Stories for Kids",
+        "description": "Keep a progress journal to track your personal growth and achievements.",
+        "additionalInfo": "Write down milestones and reflect on your journey."
+      }
+    },
+    {
+      "id": 29,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/110efd79-97f2-4bda-95f5-694b1284794a"
+      },
+      "text": {
+        "title": "Falling into Sleep",
+        "description": "Use images and art to express your thoughts, emotions, and ideas.",
+        "additionalInfo": "Draw, paint, or collage in a journal."
+      }
+    },
+    {
+      "id": 30,
+      "image": {
+        "imageUrl": "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_212,c_fill/dpr_2/image/diy/3d8bf8ac-64bf-4fc0-80b0-dc64ba6a831e"
+      },
+      "text": {
+        "title": "Relationship Healing",
+        "description": "This meditation pack on Relationships created by Spiritual Coach ModMonk Anshul.",
+        "additionalInfo": "Focus on the sensations in your body as you move."
+      }
+    }
+  ]
+  
