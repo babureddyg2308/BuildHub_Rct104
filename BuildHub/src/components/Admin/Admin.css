@@ -1,0 +1,314 @@
+*{
+  font-size: 15px;
+}
+.admin-panel {
+    font-family: Arial, sans-serif;
+    background-color: rgb(226,232,240);
+    display: flex;
+    /* Use flexbox */
+    width: 100%;
+    height: 100%;
+  }
+  
+  .SideDiv {
+    width: 10%;
+  }
+  
+  .MainDiv {
+    width: 100%;
+    background-color: rgb(226,232,240);
+  }
+  
+  .header {
+    background-color: black;
+    color: #fff;
+    padding: 1rem;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed; /* Make the header fixed */
+    top: 0; /* Position it at the top */
+    width: 100%; /* Make it span the full width */
+    z-index: 1000; /* Set a high z-index to ensure it stays on top */
+  }
+  
+  
+  /* .header {
+    background-color: black;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  } */
+  
+  .logo {
+    margin-right: 1rem;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: 40px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  
+  .search-bar input[type="search"] {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    width: 200px;
+  }
+  
+  .search-bar button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .nav-buttons button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .nav-buttons button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .sidebar {
+    width: 10%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* Change to flex-start */
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .sidebar li:hover {
+    background-color: #ccc;
+    color: #666;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  .metrics {
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgb(226,232,240);
+    /* padding: 20px; */
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px; */
+    margin-bottom: 20px;
+    gap: 10px;
+    /* margin-top: 20px; */
+  }
+  
+  .metric {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    /* Adjust the width as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .metric-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .metric-label {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Additional styles for icons if needed */
+  .metric-icon {
+    margin-bottom: 10px;
+  }
+  
+  /* You can add specific classes or inline styles to the icons in your HTML to apply colors */
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: black;
+    color: white;
+  }
+  
+  tr {
+    background-color: #f9f9f9;
+    color: black;
+    
+  }
+  
+  .DeleteButton {
+    background-color: rgb(229, 38, 38);
+  }
+  
+  button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color: white;
+  }
+  
+  button:hover {
+    border-color: #646cff;
+  }
+  
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #444;
+  }
+  
+  .modal-content h2 {
+    margin-top: 0;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 75px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    /* Adjust the width to your liking */
+    height: 80vh;
+    /* Adjust the height to your liking */
+    overflow-y: auto;
+    /* Add a vertical scrollbar if the content is too long */
+    display: flex;
+    flex-direction: column;
+    /* Make the content vertical */
+    color: black;
+  }
+  
+  .modal-content label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .modal-content input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .modal-content button {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .modal-content button:hover {
+    background-color: #444;
+  }

@@ -3,13 +3,14 @@
 .mind-page {
   margin-bottom: 20px;
     width: 100%;
-    h2, p{
+    .h2{
       margin-left: 10%;
       color: white;
       margin-top: 40px;
     }
     p{
       margin-bottom: 20px;
+      font-size: 0.9em;
     }
     
   }

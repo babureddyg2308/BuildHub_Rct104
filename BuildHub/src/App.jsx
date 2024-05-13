@@ -14,6 +14,7 @@ import CarePage from './pages/CarePage';
 import MindPage from './pages/MindPage';
 
 
+
 const App = () => {
   return (
     <div>
@@ -30,6 +31,7 @@ const App = () => {
        </Routes>
       
       <Footer />
+      
     </div>
   );
 };

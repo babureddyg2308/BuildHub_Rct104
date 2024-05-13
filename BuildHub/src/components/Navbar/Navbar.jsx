@@ -21,7 +21,7 @@ const Navbar = () => {
     <section>
       <header className="header flex">
         <div className="image">
-          <img src="../contents/BuildHub_logo.jpeg" alt="" />
+          <img src="../contents/BuildHub_logo.jpeg" alt="" style={{width:'12vw',marginTop:'25px',borderRadius:'10px'}}/>
         </div>
         <div className="navlist flex">
           <li className="navItem">
