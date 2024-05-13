@@ -34,7 +34,7 @@ const BuildTransform = () => {
        
       <div  style={{padding:'100px'}}>
       <div style={{textAlign:'center', color:'white', fontSize:'40px'}}>
-        <h1>Workout Planes </h1>
+        <h1 style={{fontSize:'40px'}}>Workout Planes </h1> <br /><br />
        </div>
         
         <img  src= {img52} alt=""   style={{height:'auto', width:'100%',}}/>
@@ -42,15 +42,15 @@ const BuildTransform = () => {
     
       
     <div className='Quiz'>
-        <h1>Is BuildHub Transform right for you?  <button> <a href="">TAKE QUIZ</a></button></h1>
+        <h1 style={{fontSize:'20px'}}>Is BuildHub Transform right for you?  <button> <a href="">TAKE QUIZ</a></button></h1>
 
     </div>
 
        <div style={{textAlign:'center', color:'white'}}>
 
-        <h1>With cult Transform, you can <br />
+        <h1 style={{fontSize:'40px'}}>With cult Transform, you can <br />
             Get access to
-    </h1>
+    </h1><br /> <br />
        </div>
     <div className='Get-access'>
         <div style={{display:'grid'}}> 
@@ -72,14 +72,14 @@ const BuildTransform = () => {
     </div>
         
         <div className='Explore'>
-            <h1>Join thousands who have lost over 10% of their body weight</h1>
+            <h1 style={{fontSize:'40px'}}>Join thousands who have lost over 10% of their body weight</h1> <br /><br />
             <button  ><a href="">EXPLORE PLANES</a></button>
         </div>
 
 
     <div style={{textAlign:'center', color:'white', fontSize:'30px'}}>
 
-        <h1>Real members, real results</h1>
+        <h1 style={{fontSize:'40px'}}>Real members, real results</h1> <br /> <br />
     </div>
             
         <div className='Real-members'>
@@ -94,7 +94,7 @@ const BuildTransform = () => {
 
         <div style={{textAlign:'center', color:'white', fontSize:'30px', marginTop:'100px'}}>
 
-        <h1> Choose your membership for</h1>
+        <h1 style={{fontSize:'40px'}}> Choose your membership for</h1> <br /><br />
         </div>
 
         <div className='Membership-info'>
@@ -105,15 +105,15 @@ const BuildTransform = () => {
                         <h3>MONTHS</h3>
                         </div>
                     <div>
-                        <p style={{textDecoration:'line-through'}}>5499</p>
+                        <p style={{textDecoration:'line-through', color:'white'}}>5499</p>
                         <h2>INR4499</h2>
-                        <p>1125/mo</p>
+                        <p style={{color:'white'}}>1125/mo</p>
                     </div>
                     </div> 
                     <hr />
                <div style={{padding:'20px'}}>
-                <p>+ Only Today | additional Rs1000 off applied</p>
-                <p>+ Only Today | Free 1 month extenction</p>
+                <p style={{color:'white'}}>+ Only Today | additional Rs1000 off applied</p>
+                <p style={{color:'white'}}>+ Only Today | Free 1 month extenction</p>
 
                 <div className='Button-Buy'>  <button className='Buynow'><a href="">BUY NOW</a></button></div>
                 </div> 
@@ -126,15 +126,15 @@ const BuildTransform = () => {
                         <h3>MONTHS</h3>
                         </div>
                     <div>
-                        <p style={{textDecoration:'line-through'}}>5499</p>
+                        <p style={{textDecoration:'line-through', color:'white'}}>5499</p>
                         <h2>INR4499</h2>
-                        <p>1125/mo</p>
+                        <p style={{color:'white'}}>1125/mo</p>
                     </div>
                     </div> 
                     <hr />
                <div style={{padding:'20px'}}>
-                <p>+ Only Today | additional Rs1000 off applied</p>
-                <p>+ Only Today | Free 1 month extenction</p>
+                <p style={{color:'white'}}>+ Only Today | additional Rs1000 off applied</p>
+                <p style={{color:'white'}}>+ Only Today | Free 1 month extenction</p>
                   
                   <div className='Button-Buy'>  <button className='Buynow'><a href="">BUY NOW</a></button></div>
                 </div> 
@@ -148,15 +148,15 @@ const BuildTransform = () => {
                         <h3>MONTHS</h3>
                         </div>
                     <div>
-                        <p style={{textDecoration:'line-through'}}>5499</p>
+                        <p style={{textDecoration:'line-through', color:'white'}}>5499</p>
                         <h2>INR4499</h2>
-                        <p>1125/mo</p>
+                        <p style={{color:'white'}} >1125/mo</p>
                     </div>
                     </div> 
                     <hr />
                <div style={{padding:'20px'}}>
-                <p>+ Only Today | additional Rs1000 off applied</p>
-                <p>+ Only Today | Free 1 month extenction</p>
+                <p style={{color:'white'}}>+ Only Today | additional Rs1000 off applied</p>
+                <p style={{color:'white'}}p>+ Only Today | Free 1 month extenction</p>
 
                 <div className='Button-Buy'>  <button className='Buynow'><a href="">BUY NOW</a></button></div>
                 </div> 
@@ -165,7 +165,7 @@ const BuildTransform = () => {
 
         <div style={{textAlign:'center', color:'white', fontSize:'25px', marginTop:'100px'}}>
 
-        <h1> Meet our Transform Coaches</h1>
+        <h1 style={{fontSize:'40px'}}> Meet our Transform Coaches</h1>
         </div>
 
         <div className='Coaches'>

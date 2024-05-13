@@ -31,7 +31,7 @@ const Navbar = () => {
           </li>
           <li className="navItem">
             <a href="/transform" className="navLink">
-              Transform
+              TRANSFORM
             </a>
           </li>
           <li className="navItem">
