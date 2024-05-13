@@ -13,6 +13,8 @@ import BuildTransform from "./components/BuildTransform";
 import CarePage from './pages/CarePage';
 import MindPage from './pages/MindPage';
 import AuthForm from "./components/AuthForm";
+// import AdminPage from './components/AdminPage'
+ 
 
 
 const App = () => {
@@ -28,6 +30,9 @@ const App = () => {
          <Route path="/care" element={<CarePage />} />
         <Route path="/mind" element={<MindPage />} />
         <Route path="/signin" element={<AuthForm />} />
+        {/* <Route path="/admin" element={<AdminPage/>}/> */}
+         
+
        </Routes>
       
       <Footer />

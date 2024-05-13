@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './AuthForm.css'; // Assuming CSS file is AuthForm.css
+import { AdminPanel } from './Admin/Admin';
 
 function AuthForm() {
   const [isLoginMode, setIsLoginMode] = useState(true); // Initially display login form
@@ -53,7 +54,9 @@ function AuthForm() {
   return (
     <div className="login-form-container">
       {isLoggedIn ? (
-        <p>You are logged in! (Implement protected content here)</p>
+        //  <Link to="/admin">Signin/Signup</Link>
+      getAlart('login successfull')
+         
       ) : (
         <form onSubmit={handleSubmit}>
           {isLoginMode ? (
