@@ -24,8 +24,8 @@ const MindPage = () => {
        <div className='top'>
         <button>Mindfulness</button>
       </div>
-      <h2>Mindfulness Library</h2>
-      <p>Access our pre-recorded meditation sessions, at your convenience</p>
+      <h2 className='h2'>Mindfulness Library</h2>
+      <p className='h2'>Access our pre-recorded meditation sessions, at your convenience</p>
       <div className="mind-container">
         {data.map(item => (
           <div key={item.id} className="mind-item">
