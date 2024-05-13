@@ -186,5 +186,11 @@ flex-wrap: wrap;
     width: 300px;
 }
 }
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 20px;
+}
 
 /* style={{display:'flex', justifyContent:"space-around", flexWrap:'wrap',gap:"10px"}} */
