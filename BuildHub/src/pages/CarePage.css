@@ -140,6 +140,7 @@ details > p {
   border: none;
   border-top: 1px solid #ccc;
   width: 100%;
+  padding-top: 20px;
   background-color: rgb(21, 21, 21);
 }
 
