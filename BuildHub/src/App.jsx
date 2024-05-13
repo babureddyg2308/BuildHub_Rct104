@@ -12,7 +12,7 @@ import NavBar2 from "./components/NavBar2";
 import BuildTransform from "./components/BuildTransform";
 import CarePage from './pages/CarePage';
 import MindPage from './pages/MindPage';
-
+import AuthForm from "./components/AuthForm";
 
 
 const App = () => {
@@ -27,7 +27,7 @@ const App = () => {
          <Route path="/transform" element={<BuildTransform/>}></Route>
          <Route path="/care" element={<CarePage />} />
         <Route path="/mind" element={<MindPage />} />
-        
+        <Route path="/signin" element={<AuthForm />} />
        </Routes>
       
       <Footer />
