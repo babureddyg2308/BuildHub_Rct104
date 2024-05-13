@@ -60,7 +60,8 @@ const Navbar = () => {
             {location}
           </li>
           <button className="btn">GET APP</button>
-          <FaUser className="login-icon" />
+          
+          <a href="/signin"><FaUser className="login-icon" /></a>
         </div>
       </header>
     </section>
