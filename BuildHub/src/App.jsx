@@ -10,6 +10,9 @@ import BodyAdd from "./components/BodyAdd";
 import Fitnes from './components/Fitnes'
 import NavBar2 from "./components/NavBar2";
 import BuildTransform from "./components/BuildTransform";
+import CarePage from './pages/CarePage';
+import MindPage from './pages/MindPage';
+
 
 const App = () => {
   return (
@@ -21,7 +24,9 @@ const App = () => {
         
          <Route path="/fitnes" element={<Fitnes/>}></Route>
          <Route path="/transform" element={<BuildTransform/>}></Route>
-         
+         <Route path="/care" element={<CarePage />} />
+        <Route path="/mind" element={<MindPage />} />
+        
        </Routes>
       
       <Footer />

@@ -35,12 +35,12 @@ const Navbar = () => {
             </a>
           </li>
           <li className="navItem">
-            <a href="#" className="navLink">
+            <a href="/care" className="navLink">
               CARE
             </a>
           </li>
           <li className="navItem">
-            <a href="#" className="navLink">
+            <a href="/mind" className="navLink">
               MIND
             </a>
           </li>
@@ -68,3 +68,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
