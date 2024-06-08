@@ -14,7 +14,7 @@ Front_End The project is mainly a front-end project with added dynamic capabilit
 
 Both the front-end and the mock server have been deployed using render.com. The deployed links can be accessed below.
 
-*Frontend: [] *Backend: [Api folder contain the backend data ]
+*Frontend: [https://rctapp-dien.vercel.app/] *Backend: [https://backend-3-yhcs.onrender.com/]
 
 
 # Objective
