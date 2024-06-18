@@ -6,7 +6,7 @@ BuildHub is a revolutionary online platform designed to inspire and guide you on
 
 # Project Type
 
-Front_End The project is mainly a front-end project with added dynamic capabilities using a mock API created by json-server. It has primarily been built using HTML, CSS, JavaScript and React  as a framework.
+The project is mainly a front-end project with added dynamic capabilities using a mock API created by json-server. It has primarily been built using HTML, CSS, JavaScript and React  as a framework.
 
 
 
